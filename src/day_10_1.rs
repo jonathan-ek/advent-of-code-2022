@@ -14,7 +14,7 @@ pub fn main() {
 
         i += 1;
         if (i + 20) % 40 == 0 {
-            println!("{}, {}", i, a);
+            // println!("{}, {}", i, a);
             sum += i*a;
         }
 
@@ -23,7 +23,7 @@ pub fn main() {
 
             i += 1;
             if (i + 20) % 40 == 0 {
-                println!("{}, {}", i, a);
+                // println!("{}, {}", i, a);
                 sum += i*a;
             }
             a += val;

@@ -87,6 +87,6 @@ pub fn main() {
     }
     inspections.sort();
     let mut tmp = inspections.iter().rev();
-    println!("{:?}", tmp);
+    // println!("{:?}", tmp);
     println!("{:?}", tmp.nth(0).unwrap() * tmp.nth(0).unwrap());
 }

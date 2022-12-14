@@ -1,6 +1,5 @@
 use std::collections::HashSet;
 use std::fs;
-use std::ops::Index;
 
 pub fn main() {
     let file_path = "inputs/09.txt";

@@ -47,7 +47,7 @@ impl ParseStacks for ContainerCollection {
 
 impl MoveStacks for ContainerCollection {
     fn moves(&mut self, inp: &str) {
-        let mut rows = inp.split("\n");
+        let rows = inp.split("\n");
 
         for row in rows {
             let parts: Vec<&str> = row.split(' ').collect();

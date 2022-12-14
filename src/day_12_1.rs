@@ -2,7 +2,7 @@ use std::{fs};
 use std::collections::HashMap;
 
 pub struct Node {
-    height: i32,
+    // height: i32,
     coord: (usize, usize),
     connections: Vec<(usize, usize)>,
     value: i32,
@@ -45,7 +45,7 @@ pub fn main() {
                 connections.push((x + 1, y));
             }
             nodes.insert((x, y), Node {
-                height,
+                // height,
                 coord: (x, y),
                 connections,
                 value: i32::MAX,
@@ -54,8 +54,8 @@ pub fn main() {
         }
     }
 
-    println!("{:?}", start);
-    println!("{:?}", end);
+    // println!("{:?}", start);
+    // println!("{:?}", end);
     nodes.get_mut(&start).unwrap().value = 0;
     let mut unvisited_nodes: Vec<(usize, usize)> = nodes.values().map(|x| x.coord).collect();
 
