@@ -25,9 +25,9 @@
 // mod day_13_1;
 // mod day_13_2;
 // mod day_14_1;
-mod day_14_2;
+// mod day_14_2;
 // mod day_15_1;
-// mod day_15_2;
+mod day_15_2;
 // mod day_16_1;
 // mod day_16_2;
 // mod day_17_1;
@@ -102,12 +102,12 @@ fn main() {
     // day_13_2::main();
     // print!("Day 14 part 1: ");
     // day_14_1::main();
-    print!("Day 14 part 2: ");
-    day_14_2::main();
+    // print!("Day 14 part 2: ");
+    // day_14_2::main();
     // print!("Day 15 part 1: ");
     // day_15_1::main();
-    // print!("Day 15 part 2: ");
-    // day_15_2::main();
+    print!("Day 15 part 2: ");
+    day_15_2::main();
     // print!("Day 16 part 1: ");
     // day_16_1::main();
     // print!("Day 16 part 2: ");
